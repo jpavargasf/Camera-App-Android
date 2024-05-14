@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_main_capture_photo"
+        android:title="@string/capture_photo"
+        android:icon="@drawable/baseline_photo_camera_white_24dp"
+        app:showAsAction="always" />
+
+<!--    <item
+        android:id="@+id/menu_main_settings"
+        android:title="@string/settings"/>-->
+
+    <item
+        android:id="@+id/menu_main_specifications"
+        android:title="@string/specifications"/>
+
+    <item
+        android:id="@+id/menu_main_next_camera"
+        android:title="@string/next_camera"/>
+
+    <item
+        android:id="@+id/menu_main_shutter_speed"
+        android:title="@string/change_shutter_speed"/>
+
+</menu>
